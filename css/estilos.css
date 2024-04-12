@@ -1,0 +1,148 @@
+body{
+    font-family: 'GaleriagaleriaPoppins', sans-serif;
+    background-color: rgb(243, 243, 243);
+    p{
+        line-height: 1.5;
+        margin: 0px;
+    }
+}
+
+.bannerprincipal {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/beef-empanadas-index-65b2dbed8636a.jpg?crop=0.8892778993435448xw:1xh;center,top&resize=1200:*);
+    background-size: cover;
+    height: 50vh;
+    align-items: center;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.665);
+    background-blend-mode: soft-light;
+}
+.bannerprincipal .contenedortextobanner {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.bannerprincipal .titulobanner {
+    font-size: 40px;
+}
+.bannerprincipal .textobanner {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.sectioncards {
+    margin-top: -100px;
+    }
+    
+    .card {
+        transition: 250ms;
+        height: 100%;
+        border: none;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .card .titulocard {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    @media screen and (max-width: 992px) {
+        .card .titulocard {
+        font-size: 18px;
+        }
+    }
+    .card .textocard {
+        font-size: 16px;
+    }
+    @media screen and (max-width: 992px) {
+        .card .textocard {
+        font-size: 14px;
+        }
+    }
+    .card .imagencard {
+        border-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    @media screen and (max-width: 992px) {
+        .card .imagencard {
+        border-radius: 5px;
+        height: 140px;
+        }
+    }
+    .card:hover {
+        transition: 250ms;
+        transform: translateY(-5px);
+        height: 100%;
+        transform: scale(1.02);
+        border: none;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    @media screen and (max-width: 992px) {
+        .card {
+        height: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        }
+    }
+    @media screen and (max-width: 992px) and (max-width: 992px) {
+        .card:hover {
+        transition: 250ms;
+        transform: translateY(0px);
+        height: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        }
+    }
+
+
+
+    .boton {
+        transition: 250ms;
+        margin-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: rgba(0, 0, 0, 0);
+        color: #121213;
+        align-items: center;
+        height: 48px;
+        border: solid 1px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+    .boton:hover {
+        transform: scale(1.05);
+        transition: 250ms;
+        background-color: #121213;
+        color: #ffffff;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+    }
+    @media screen and (max-width: 992px) {
+        .boton {
+        width: 100%;
+        }
+    }
+    @media screen and (max-width: 992px) and (max-width: 992px) {
+        .boton:hover {
+        transition: 500ms;
+        background-color: #121213;
+        color: #ffffff;
+        width: 100%;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        }
+    }
+
+.preciocard {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 20px;
+    }
